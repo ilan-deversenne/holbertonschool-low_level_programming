@@ -9,3 +9,6 @@
 
 # 3-name
 ## Compile and link a C program, producing an executable named "cisfun"
+
+# 4-puts.c
+## Print "Programming is like building a multilingual puzzle"
