@@ -15,3 +15,6 @@
 
 # 5-printf.c
 ## Print "with proper grammar, but the outcome is a piece of art," with printf
+
+# 6-size.c
+## Print differents size of types
