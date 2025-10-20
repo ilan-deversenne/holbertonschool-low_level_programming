@@ -1,2 +1,2 @@
 #!/bin/bash
-
+gcc -c $CFILE -Wall -Werror -Wextra -pedantic -std=gnu89 -o ${CFILE//\.c/.o}
