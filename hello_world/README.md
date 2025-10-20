@@ -12,3 +12,6 @@
 
 # 4-puts.c
 ## Print "Programming is like building a multilingual puzzle"
+
+# 5-printf.c
+## Print "with proper grammar, but the outcome is a piece of art," with printf
