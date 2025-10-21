@@ -34,7 +34,7 @@ int main(void)
 		119,
 		120,
 		121,
-		122
+		122,
 	};
 
 	int i;
@@ -45,6 +45,9 @@ int main(void)
 
 		putchar(c);
 	}
+
+	/* New line */
+	putchar(10);
 
 	return (0);
 }
