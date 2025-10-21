@@ -38,9 +38,11 @@ int main(void)
 	};
 
 	int i;
+
 	for (i = 0; i < 25; i++)
 	{
 		char c = alphabet[i];
+
 		putchar(c);
 	}
 
