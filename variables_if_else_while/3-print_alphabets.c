@@ -1,34 +1,32 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Entry point
  *
  * Description: Print [a-z][A-Z]$ only with putchar function
+ * And only 3 calls to putchar
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	char c;
 
-	for (i = 97; i < 122; i++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		char c = i;
-
-		putchar(c);
+		/* putchar(c); */
+		write(1, &c, 1);
 	}
 
-	for (i = 65; i < 90; i++)
+	for (c = 'A'; c <= 'Z'; c++)
 	{
-		char c = i;
-
 		putchar(c);
 	}
 
 	/* $ */
-	putchar(36);
+	putchar('$');
 
-	/* New line */
-	putchar(10);
+	putchar('\n');
 
 	return (0);
 }

@@ -6,3 +6,6 @@
 
 # 2-print_alphabet.c
 ## Print alphabet with only putchar
+
+# 3-print_alphabets.c
+## Print [a-z][A-Z]$ but only use 3 putchar calls
