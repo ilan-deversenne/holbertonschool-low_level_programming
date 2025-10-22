@@ -14,8 +14,7 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		/* putchar(c); */
-		write(1, &c, 1);
+		putchar(c);
 	}
 
 	for (c = 'A'; c <= 'Z'; c++)
@@ -23,9 +22,7 @@ int main(void)
 		putchar(c);
 	}
 
-	/* $ */
-	putchar('$');
-
+	/* New line */
 	putchar('\n');
 
 	return (0);
