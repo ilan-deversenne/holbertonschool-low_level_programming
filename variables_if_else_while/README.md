@@ -9,3 +9,6 @@
 
 # 3-print_alphabets.c
 ## Print [a-z][A-Z]$ but only use 3 putchar calls
+
+# 4-print_alphabt.c
+## Print [a-z] but don't print e and q
