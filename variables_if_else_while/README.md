@@ -12,3 +12,9 @@
 
 # 4-print_alphabt.c
 ## Print [a-z] but don't print e and q
+
+# 5-print_numbers.c
+## Print [0-9]
+
+# 6-print_numberz.c
+## Print [0-9] but without define a char
