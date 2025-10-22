@@ -16,11 +16,11 @@ int main(void)
 
 		if (character < 57)
 		{
-			/* Space */
-			putchar(32);
-
 			/* , */
 			putchar(44);
+
+			/* Space */
+			putchar(32);
 		}
 	}
 
