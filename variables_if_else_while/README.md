@@ -18,3 +18,6 @@
 
 # 6-print_numberz.c
 ## Print [0-9] but without define a char
+
+# 7-print_tebahpla.c
+## Print z-a
