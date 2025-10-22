@@ -18,3 +18,6 @@
 
 # 6-size.c
 ## Print differents size of types
+
+# 100-intel
+## Bash script for assemble $CFILE.c to $CFILE.s but in itel100
