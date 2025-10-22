@@ -21,3 +21,6 @@
 
 # 7-print_tebahpla.c
 ## Print z-a
+
+# 8-print_base16.c
+## Print Base16 + \n but only with putchar
