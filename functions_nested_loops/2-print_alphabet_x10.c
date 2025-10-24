@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * print_alphabet_x10 - print alphabet 10 times
+ *
+ * Description: Print x10 alphabet with _putchar
+ * Return: Always 0 (Success)
+ */
 int print_alphabet_x10(void)
 {
 	int i, x;
