@@ -10,16 +10,17 @@
 int print_last_digit(int n)
 {
 	char c = '0' + (n % 10);
+
 	if (n < 0)
 	{
-		c = '0' + ((n % 10) * -1);
+		c = '0' + ((n % 10) * (-1));
 	}
 
 	_putchar(c);
 
 	if (n < 0)
 	{
-		return ((n % 10) * - 1);
+		return ((n % 10) * (-1));
 	}
 	return (n % 10);
 }
