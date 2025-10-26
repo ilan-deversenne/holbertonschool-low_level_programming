@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_alphabet - Print alphabet a-z
+ *
+ * Return: No return
+ */
 void print_alphabet(void)
 {
 	char letter;
