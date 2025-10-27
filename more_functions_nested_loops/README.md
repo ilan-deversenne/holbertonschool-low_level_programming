@@ -15,3 +15,6 @@
 
 # 4-print_most_numbers
 ## Function print_most_numbers print 0-9 but not 2 and 4
+
+# 5-more_numbers
+## Function more_numbers print 10 times 0-14
