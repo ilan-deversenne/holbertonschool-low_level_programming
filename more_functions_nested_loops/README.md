@@ -9,3 +9,6 @@
 # 2-mul
 ## Function mul multiply two int
 ## Return a * b
+
+# 3-print_numbers
+## Function print_numbers print 0-9
