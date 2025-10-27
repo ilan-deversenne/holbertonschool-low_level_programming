@@ -5,3 +5,7 @@
 # 1-isdigit.c
 ## Function _isdigit check if is digit
 ## 'Return 1 if is digit else 2)
+
+# 2-mul
+## Function mul multiply two int
+## Return a * b
