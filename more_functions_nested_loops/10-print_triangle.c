@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * print_square - Print triangle with '#' with given size
+ * @size: Size of triangle
+ */
 void print_triangle(int size)
 {
 	int i, x;
