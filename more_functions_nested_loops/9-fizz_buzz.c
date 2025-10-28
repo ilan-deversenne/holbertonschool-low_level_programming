@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point - Print numbers 1 to 100
+ * but replace number divisible by 3 and 5 to Fizz
+ * and number divisible by 5 to Buzz
+ * and number divisible by 3 to Fizz
+ */
 int main(void)
 {
 	int i;
