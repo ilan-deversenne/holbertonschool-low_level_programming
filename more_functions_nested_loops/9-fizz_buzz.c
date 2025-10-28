@@ -5,6 +5,8 @@
  * but replace number divisible by 3 and 5 to Fizz
  * and number divisible by 5 to Buzz
  * and number divisible by 3 to Fizz
+ *
+ * Return: Always 0
  */
 int main(void)
 {
