@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * puts_half - Print half of an str
+ * @str: Pointer of string to print
+ */
 void puts_half(char *str)
 {
 	int a, z;
@@ -12,15 +16,18 @@ void puts_half(char *str)
 	z--;
 
 	for (; a <= z; a++)
-		if (z % 2 == 1)
-		{
-			if (a > z / 2)
+	{
+		if (z % 2 == 0)
+			if (a >= z / 2)
+			{
 				_putchar(str[a]);
-		}
-		else
-		{
-			_putchar(str[(z + 1) / 2]);
-		}
+				continue;
+			}
+
+		if (a > z / 2)
+			_putchar(str[a]);
+
+	}
 
 	_putchar(10);
 }
