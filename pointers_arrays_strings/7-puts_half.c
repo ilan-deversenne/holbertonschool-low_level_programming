@@ -18,7 +18,7 @@ void puts_half(char *str)
 	for (; a <= z; a++)
 	{
 		if (z % 2 == 0)
-			if (a >= z / 2)
+			if (a > z + 1 / 2)
 			{
 				_putchar(str[a]);
 				continue;
