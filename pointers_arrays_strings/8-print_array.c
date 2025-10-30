@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * print_array - Print content of a array
+ * @a: Pointer of array
+ * @n: Nomber of element to display
+ */
 void print_array(int *a, int n)
 {
 	int i;
