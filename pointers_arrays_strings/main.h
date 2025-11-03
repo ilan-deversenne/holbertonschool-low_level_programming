@@ -13,7 +13,12 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
+
+/* Project: C - More pointers, arrays and strings */
 char *_strcat(char *dest, char *src);
+char *_strncat(char *dest, char *src, int n);
+
+/* Project: C Even */
 char *_memset(char *s, char b, unsigned int n);
 
 #endif
