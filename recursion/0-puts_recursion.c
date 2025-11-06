@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts_recursion - Puts but with recursion (reverced)
+ * _puts_recursion - Puts but with recursion
  * @s: String to puts
  */
 void _puts_recursion(char *s)
