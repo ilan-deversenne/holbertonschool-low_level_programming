@@ -8,4 +8,7 @@
 ## Print all arguments of program
 
 # 3-mul.c
-## Multiply two number given has argument
+## Multiply two numbers given has argument
+
+# 4-add
+## Aggregate two numbers given has argument
