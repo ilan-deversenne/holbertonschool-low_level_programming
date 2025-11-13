@@ -2,7 +2,7 @@
 #define DOG_H
 
 /*
-   Structure
+ * Structure
  */
 
 /**
@@ -22,7 +22,13 @@ struct dog
 
 
 /*
-   Prototype
+ * Typedef
+ */
+
+typedef struct dog dog_t;
+
+/*
+ * Prototype
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
