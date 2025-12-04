@@ -1,5 +1,12 @@
 #include "lists.h"
 
+/**
+ * add_node_end - Add node at end
+ * @head: List
+ * @str: String to add
+ *
+ * Return: List with the new node
+ */
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *h;
