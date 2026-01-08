@@ -10,15 +10,14 @@
  */
 char *_strdup(char *str)
 {
-	int i, len;
+	unsigned int i = 0, len;
 	char *result = NULL;
 
-	len = 0;
+	len = _strlen(str);
 
-	while (str[len] != '\0')
-		len++;
-
-	result = (char *) malloc(len * sizeof(char));
+	result = malloc((len + 1) * sizeof(char));
+	if (result == NULL)
+		return (NULL);
 
 	for (i = 0; i < len; i++)
 		result[i] = *(str + i);
